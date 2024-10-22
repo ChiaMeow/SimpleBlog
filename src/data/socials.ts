@@ -1,6 +1,6 @@
 export const socials = [
   {
-    name: 'Twitter',
+    name: 'Wechat',
     url: 'https://twitter.com/littlesticksdev',
     icon: 'mdi:twitter'
   },
