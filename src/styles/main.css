@@ -16,6 +16,43 @@
   --theme-footer-background: hsl(0, 0%, 3%);
   --theme-on-footer-background: hsl(0, 0%, 90%);
 
+  /* 引入自定义字体 */
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('G:\OneDrive - Woo-hoo\文档\SimpleBlog\public\fonts\HarmonyOS_Sans_SC_Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
   /* Typography */
  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1140,24,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
@@ -28,8 +65,8 @@
   --step-4: clamp(2.33rem, calc(1.81rem + 2.59vw), 3.66rem);
   --step-5: clamp(2.80rem, calc(2.11rem + 3.47vw), 4.58rem);
 
-  --font-family-heading: '', sans-serif;
-  --font-family-body: 'Open Sans', sans-serif;
+  --font-family-heading: 'HarmonyOS Sans SC', sans-serif;
+  --font-family-body: 'HarmonyOS Sans SC', sans-serif;
 
   --body-max-width: 1920px;
 
